@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  background-color: #1d1836; 
+  font-family: sans-serif;
+  color: white;
+}
+
+#solarCanvas {
+  width: 100vw;
+  height: 100vh;
+  display: block;
+}
+
+#controls {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 10px;
+  border-radius: 8px;
+  z-index: 1;
+}
+
+#sliders label {
+  display: block;
+  margin: 8px 0 4px;
+}
+
+#sliders input[type=range] {
+  width: 150px;
+}
